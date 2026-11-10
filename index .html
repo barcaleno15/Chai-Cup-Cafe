@@ -1,0 +1,177 @@
+<!--
+Name: Amna Ashraf
+Section: 26I-3072
+THEME: CHAI DHABA
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai Lover - Chai Cup Cafe</title>
+
+    <!-- CSS directly added inside HTML head -->
+    <style>
+        /* Base Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fdf6ec;
+            color: #4a2c11;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #5c2c16;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+        .header h1 {
+            margin: 0 0 5px 0;
+        }
+
+        .header p {
+            margin: 0 0 15px 0;
+            font-size: 0.95rem;
+            opacity: 0.9;
+        }
+
+        /* Navigation Links */
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #ffd8b3;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        nav a.active, nav a:hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .heading {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #5c2c16;
+        }
+
+        /* Menu Layout */
+        .menu-grid {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .menu-card {
+            background: #ffffff;
+            border: 1px solid #e0d0c0;
+            border-radius: 10px;
+            padding: 20px;
+            width: 260px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        .food-icon {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .menu-card h3 {
+            margin-top: 0;
+            color: #5c2c16;
+        }
+
+        /* Center Aligned Order Button */
+        .order-btn {
+            display: block;
+            margin: 30px auto;
+            background-color: #8c3b19;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .order-btn:hover {
+            background-color: #5c2c16;
+        }
+
+        footer {
+            background-color: #5c2c16;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>☕ Chai Cup Cafe</h1>
+        <p>Welcome to the World of Chai Lovers!</p>
+
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="menu.html">Our Menu</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <h2 class="heading">Our Special Menu</h2>
+
+        <div class="menu-grid">
+
+            <div class="menu-card">
+                <div class="food-icon">☕</div>
+                <h3>Coffee</h3>
+                <p>Americano - 750 PKR</p>
+                <p>Matcha - 350 PKR</p>
+                <p>Cardamom Tea - 450 PKR</p>
+            </div>
+
+            <div class="menu-card">
+                <div class="food-icon">🍬</div>
+                <h3>Sweets</h3>
+                <p>Crispy Jalebi - 790 PKR</p>
+                <p>Meetha Malai Paratha - 500 PKR</p>
+                <p>Moti Choor Ladoo - 550 PKR</p>
+            </div>
+
+        </div>
+
+        <!-- Order Button Center Aligned -->
+        <button class="order-btn" type="button" onclick="window.location.href='contact.html'">
+            Order Now
+        </button>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Chai Cup Cafe | Made with ❤️ for Chai Lovers</p>
+    </footer>
+
+</body>
+</html>
